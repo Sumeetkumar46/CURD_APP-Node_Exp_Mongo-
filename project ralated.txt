@@ -1,0 +1,46 @@
+ https://www.youtube.com/watch?v=_7UQPve99r4&t=181s&ab_channel=freeCodeCamp.org
+
+ STEP 1 ----> npm init -y
+ // initially to run server using --> npm run serve
+   --> in package.json file inside --> "scripts": { "serve": "node index.js", } 
+ 
+ // changed to npm run dev   
+  --> in package.json file inside --> "scripts": { "dev": "nodemon index.js" }
+    "dev": "nodemon index.js"
+
+ STEP 2 ---->
+  npm i express
+
+   STEP 3 ----> 
+   Login into MongoDB - sumeetmamadapur2*@gmail.com
+
+   3.1 ---> click top left corner Create a Project 
+   3.2 ---> name is CURD_APP(Node_Exp_Mongo)
+   3.3 ---> Give your members access permissions below -- click Create Project
+   3.3 ---> you see top -->Data Services  in that -->> click on Create a deployment
+   3.3 ---> after that Name cluster is created BackendDB.
+            Security Quickstart ->>>> Username>>sumeetmamadapur21 >>password>> tnssItI63LtYWRBA click on create user.
+            IP Access List my IP address is 49.37.241.76/32 but given is 0.0.0.0 (Allow from anywhere). press Add Entry.
+            in DEPLOYMENT --. goto Database --> see BackendDB click connect,
+            see this POPUP page>> Connect to BackendDB >> Connect to your application >> click on Drivers.
+
+
+    STEP 4 ----> npm install mongodb    
+
+    STEP 5 ----> Add your connection string into your application code 
+       COPY IT mongodb+srv://sumeetmamadapur21:<password>@backenddb.rmldbfu.mongodb.net/?retryWrites=true&w=majority       
+
+    STEP 6 ----> install Mongoose >> npm i mongoose >> in code const mongoose = require ('mongoose');
+
+   STEP 7 --> mongoose.connect("mongodb+srv://sumeetmamadapur21:<password>@backenddb.rmldbfu.mongodb.net/?retryWrites=true&w=majority")
+
+                NEXT STEPS WATCH VIDEO FROM Time>> 29.00
+
+
+      JSON VIWER chrome extension -->> https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+
+    STEP 8 -->(1:10:42 TIME)Create FOLDER STRCTURE for PROJECT 
+            >> routes --> routes/product.route.js     
+
+
